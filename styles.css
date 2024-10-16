@@ -1,32 +1,66 @@
 .navbar {
-    margin-right: 0px;
-    z-index: 1000;
-    overflow: hidden;
-    background-color: #041E42;
-    justify-content: center;
+  margin-right: 0px;
+  z-index: 1000;
+  overflow: hidden;
+  background-color: #041E42;
+  justify-content: center;
 }
   
-  .navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 }
   
-  .navbar-container {
-    max-width: 1200px;
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
+.navbar-container {
+  max-width: 1200px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
 }
   
-  .navbar a:hover {
-    background-color: #003594;
-    color: rgb(255, 255, 255);
+.navbar a:hover {
+  background-color: #003594;
+  color: rgb(255, 255, 255);
   }
 
-  .tweet-box {
-    width: 50%;
+.tweet-box {
+  width: 50%;
+}
+
+.contact-form {
+  width: 45%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact-form button {
+  background-color: #003594;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #041E42;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
