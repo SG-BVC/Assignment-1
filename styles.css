@@ -1,0 +1,32 @@
+.navbar {
+    margin-right: 0px;
+    z-index: 1000;
+    overflow: hidden;
+    background-color: #041E42;
+    justify-content: center;
+}
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+  
+  .navbar-container {
+    max-width: 1200px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+  
+  .navbar a:hover {
+    background-color: #003594;
+    color: rgb(255, 255, 255);
+  }
+
+  .tweet-box {
+    width: 50%;
+}
